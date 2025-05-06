@@ -1138,9 +1138,6 @@ class AlpacaWindow(Adw.ApplicationWindow):
 
     def prepare_alpaca(self):
         self.main_navigation_view.replace_with_tags(['chat'])
-        # Notice
-        if not self.sql_instance.get_preference('last_notice_seen') == self.notice_dialog.get_name():
-            self.notice_dialog.present(self)
 
         #Chat History
         self.load_history()
