@@ -185,7 +185,7 @@ class AlpacaApplication(Adw.Application):
                       f'© {current_year} Lambda.ai\n'
                       f'© {current_year} Fireworks.ai\n'
                       f'© {current_year} Microsoft',
-            issue_url='https://github.com/Jeffser/Alpaca/issues',
+            issue_url='https://github.com/kenvandine/alpaca-snap/issues',
             license_type=Gtk.License.GPL_3_0,
             website="https://jeffser.com/alpaca"
         )
